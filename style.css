@@ -84,6 +84,7 @@ ul li a{
     display: flex;
     justify-content: center;
     align-items: end;
+    margin: 0 auto;
 }
 .card img{
     /* width: 100%; */
@@ -108,7 +109,15 @@ ul li a{
 .bg-third{
     background-color: rgba(71, 125, 17, 0.15);
 }
-
+.delivery-and-support-section{
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 4rem auto;
+    background-color: rgba(39, 39, 39, 0.05);
+    padding: 4rem 0;
+}
 /* lets make it responsive */
 
 @media screen and (max-width: 576px) {
