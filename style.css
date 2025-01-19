@@ -138,6 +138,24 @@ ul li a{
 .hot-title span{
     color: #E55473;
 }
+
+.instagram-section{
+    max-width: 1140px;
+    margin: 4rem auto;
+}
+.insta-sect-title{
+    max-width: 600px;
+    text-align: center;
+    margin: 2rem auto;
+}
+.insta-img-section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.insta-img-section img{
+    height: 245px;
+    width: 220px;
+}
 /* lets make it responsive */
 
 @media screen and (max-width: 576px) {
@@ -167,5 +185,11 @@ ul li a{
     .hot-deal{
         flex-direction: column-reverse;
         text-align: center;
+    }
+    .insta-img-section{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .insta-img-section img{
+        margin: 2rem auto;
     }
 }
